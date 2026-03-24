@@ -2,6 +2,8 @@
 
 
 var a = 10;
+var a=100; //reassignment  & redeclaration possible.
+a=90;
 console.log(a);
 function test() {
      var a=20;
