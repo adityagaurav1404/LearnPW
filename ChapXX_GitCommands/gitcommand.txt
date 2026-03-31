@@ -1,0 +1,41 @@
+git init  // git initialize
+git add . //git add to stage
+git add <Filenm>
+
+git commit -m "<message>"
+git branch -M main  // soft rename, if  Renames the current branch if <old-branch> is not specified.
+git branch -m master main// rename old master to new main
+git branch -M main // rename branch if already exist, This renames the current branch to master, overwriting any existing master branch if necessary.
+git branch main // create new branch
+
+git checkout main
+git remote add origin <git url>
+
+git push origin -u main // push mentioning the branch
+
+git push origin --delete master  //optional, to remove old remote branch
+
+git rm <file>
+git commit -m "file deleted from both local and git"
+git push
+
+git rm  --cached <file>
+git commit -m "file deleted from both git not local"
+git push
+
+
+git rm -f <file> // Force remove, even if modified
+
+
+
+echo "path/to/file.txt" >> .gitignore
+git add .gitignore
+git commit -m "Add file.txt to .gitignore"
+
+
+
+git reset path/to/file.txt // remove the file from staging
+
+
+git checkout -- rb.properties// reset a single file
+
