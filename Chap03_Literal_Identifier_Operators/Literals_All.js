@@ -61,3 +61,7 @@ console.log(address)
 
 let address2 = "https:\\\\app.vdo.com\\login";
 console.log(address2)
+
+
+let math = `multiplication of 2 and 3 is ${2 * 3}`
+console.log(math)
