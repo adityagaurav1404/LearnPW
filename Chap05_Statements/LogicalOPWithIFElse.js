@@ -10,3 +10,5 @@ if (age > 50) {
     console.log("15 se chota");
 
 }
+
+
