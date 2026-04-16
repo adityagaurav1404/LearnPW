@@ -1,5 +1,9 @@
 let browser = "safari"
 
+
+// switch(score) → compares values
+// switch(true) → compares conditions
+
 switch (browser) {
     case "chrome":
     case "edge":
