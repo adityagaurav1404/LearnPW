@@ -1,8 +1,11 @@
-let score = 91;
+let score = -91;
 
+if (typeof score !== "number") {
 
-
-if (score >= 90 && score <= 100) {
+    console.log("chal be! kya bak riya hai");
+} else if (score > 100 || score < 0) {
+    console.log("chal be! kya bak riya hai");
+} else if (score >= 90 && score <= 100) {
     console.log("GRADE A");
 
 } else if (score >= 80 && score <= 89) {
