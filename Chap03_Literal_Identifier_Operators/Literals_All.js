@@ -44,7 +44,7 @@ console.log(movie)
 
 
 let numval = `2+2 = ${2 + 2}`;
-console.log(numval)
+console.log(numval) //2+2 = 4
 
 
 //   \\ = used in Path
