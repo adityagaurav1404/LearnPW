@@ -17,6 +17,8 @@ console.log(og) //[ 1, 2, 3 ]
 console.log(copy1) //[ 1, 2, 3, 99 ] 
 //This is shallow copy, new memory will be allocated to the new copy element, and if updating the new copied element, old wont be affected
 
-og.push(55)
-console.log(og) //[ 1, 2, 3 ]
-console.log(copy1) //[ 1, 2, 3, 99 ] 
+
+let deep = og
+deep.push(101);
+console.log(og) //[ 1, 2, 3, 101 ]
+console.log(deep) //[ 1, 2, 3, 101 ]

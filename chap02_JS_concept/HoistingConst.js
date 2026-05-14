@@ -1,3 +1,3 @@
-console.log(amit); //TDZ
+console.log(amit); //TDZ ReferenceError: Cannot access 'amit' before initialization
 const amit = "king";
-console.log(amit);
+console.log(amit); //king
