@@ -1,3 +1,5 @@
+//outer cant access inner values
+
 let env = "Staging" // global scoped
 
 function setup() {
@@ -21,6 +23,7 @@ function out() {
         console.log(x)// 10
     }
     inner();
-    console.log(y) //cant access the local : y: timeout is not defined
+    console.log(y) //cant access the local : ReferenceError: y is not defined //outer cant access inner variables
+}
 
-    out()
+out();

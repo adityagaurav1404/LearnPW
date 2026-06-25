@@ -7,7 +7,8 @@ function logResults(suiteName, ...results) { //...results is called array spread
 logResults("TestSuite", "Pass", "Fail", "Skip", "Pass") //suite name : TestSuite /nResults: Pass, Fail, Skip, Pass
 
 
-//Ex2
+//Ex2 spread Functions
+
 
 function add(a, b, c) {
     return a + b + c;

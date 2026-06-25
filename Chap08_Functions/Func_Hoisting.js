@@ -1,4 +1,4 @@
-//function hoisting - always check the implementation in the cpde
+//function hoisting - always check the implementation in the code
 //hoisting means declarations are conceptually moved to the top of their scope before code execution.
 //function declaration are hoisted, You can call them before they are initialized: whenerever we call, it will search the implementation
 //function expressions and arrow functions are NOT HOISTED

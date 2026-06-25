@@ -18,7 +18,7 @@ function logTest(name) {
 }
 
 logTest("jaadu")  //log test : jaadu
-console.log(logTest("jaadu")) //lundefined
+console.log(logTest("jaadu")) //undefined
 
 
 //returns multple values via array or Object
